@@ -1,0 +1,24 @@
+{
+    "name": "ebichan/silex-aws-provider",
+    "type": "library",
+    "description":  "AWS service provider for the Silex framwork.",
+    "keywords": ["aws", "silex"],
+    "homepage": "https://github.com/Ebichan/silex-aws-provider",
+    "license":  "MIT",
+    "authors": [
+        {
+            "name": "Jonathan Sousa",
+            "email": "sousa.jonathan@gmail.com"
+        }
+    ],
+    "require": {
+        "pimple/pimple": "*",
+        "silex/silex": "1.*",
+        "aws/aws-sdk-php": ">=2.4.6"
+    },
+    "autoload": {
+        "psr-0": {
+            "Aws\\Silex": "src"
+        }
+    }
+}
