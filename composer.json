@@ -1,7 +1,7 @@
 {
     "name": "ebichan/silex-aws-provider",
     "type": "library",
-    "description":  "AWS service provider for the Silex framwork.",
+    "description":  "AWS service provider for the Silex framework.",
     "keywords": ["aws", "silex"],
     "homepage": "https://github.com/Ebichan/silex-aws-provider",
     "license":  "MIT",
