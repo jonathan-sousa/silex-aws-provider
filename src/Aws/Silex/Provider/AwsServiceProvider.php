@@ -30,7 +30,7 @@ class AwsServiceProvider implements ServiceProviderInterface
         );
 
         $app[self::AWS_FACTORY] = $app->protect(function ($key = '', $secret = '', $region = 'us-east-1') use ($app) {
-            return $app[AwsServiceProvider::AWS]->createConnection($server, $options);
+            return $app[AwsServiceProvider::AWS]->createConnection($key, $secret, $region);
         });
 
         $app[self::AWS] = $app->share(function () use ($app) {
