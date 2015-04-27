@@ -3,7 +3,7 @@
     "type": "library",
     "description":  "AWS service provider for the Silex framework.",
     "keywords": ["aws", "silex"],
-    "homepage": "https://github.com/Ebichan/silex-aws-provider",
+    "homepage": "https://github.com/jonathan-sousa/silex-aws-provider",
     "license":  "MIT",
     "authors": [
         {
